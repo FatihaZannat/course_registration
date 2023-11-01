@@ -5,7 +5,7 @@ const Cart = ({cartState, i}) => {
     const {course_name} = cartState
   
     return (
-        <div className="">
+        <div className="pb-4 text-gray-400">
             
             <h1 className='text-2xl'> 
             {i}.

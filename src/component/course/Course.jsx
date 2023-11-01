@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { BsBook } from 'react-icons/Bs';
 
 const Course = ({course, handleCourse}) => {
     
@@ -8,7 +9,14 @@ const Course = ({course, handleCourse}) => {
             <img className="w-full" src={img} alt="" />
             <h1 className="font-semibold text-xl my-3">{course_name}</h1>
             <p className="text-gray-400">{course_details}</p>
-            <p><span>$Price:{price}</span> <span>Credit:{credit_hours}</span></p>
+            <div className='flex justify-start py-3'>
+                <span>$ Price:{price}</span>
+                <div className='flex pl-5 items-center gap-1'>
+                <span><BsBook/>  </span>
+                <span> Credit:{credit_hours}</span>
+                </div>
+             </div>
+            
             <button onClick={()=>handleCourse(course, credit_hours , price)} className="bg-blue-500 py-3 px-36 mt-3 rounded">Select</button>
         </div>
     );
