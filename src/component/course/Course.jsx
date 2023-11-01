@@ -9,7 +9,7 @@ const Course = ({course, handleCourse}) => {
             <h1 className="font-semibold text-xl my-3">{course_name}</h1>
             <p className="text-gray-400">{course_details}</p>
             <p><span>$Price:{price}</span> <span>Credit:{credit_hours}</span></p>
-            <button onClick={()=>handleCourse(course)} className="bg-blue-500 py-3 px-36 mt-3 rounded">Select</button>
+            <button onClick={()=>handleCourse(course, credit_hours)} className="bg-blue-500 py-3 px-36 mt-3 rounded">Select</button>
         </div>
     );
 };

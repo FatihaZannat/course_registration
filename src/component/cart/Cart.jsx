@@ -7,11 +7,15 @@ const Cart = ({cartState, i}) => {
     return (
         <div className="">
             
-            <h1 className='text-2xl'> {i}. {course_name}</h1>
+            <h1 className='text-2xl'> 
+            {i}.
+             {course_name}</h1>
+           
         </div>
     );
 };
 Cart.propTypes = {
    cartState: PropTypes.object,
+   i: PropTypes.number
 }
 export default Cart;
