@@ -1,0 +1,65 @@
+[
+    {
+        "course_name": "Introduction to Computer Science",
+        "course_details": "This course covers the of computer science, including programming and algorithm design.",
+        "price": 499.99,
+        "credit_hours": 3,
+        "img":"https://i.ibb.co/FWRkgTk/Rectangle-3-1.png"
+    },
+    {
+        "course_name": "Advanced Mathematics",
+        "course_details": "An in-depth exploration of advanced mathematical concepts and their applications.",
+        "price": 599.99,
+        "credit_hours": 4,
+        "img":"https://i.ibb.co/Bz3KCB1/Rectangle-2-6.png"
+    },
+    {
+        "course_name": "Physics Fundamentals",
+        "course_details": "Fundamental principles of physics, with a focus on mechanics and thermodynamics.",
+        "price": 449.99,
+        "credit_hours": 3,
+        "img":"https://i.ibb.co/SxRpfdr/Rectangle-3.png"
+    },
+    {
+        "course_name": "Organic Chemistry",
+        "course_details": "An intensive course on organic chemistry, including reaction mechanisms and synthesis.",
+        "price": 699.99,
+        "credit_hours": 4,
+        "img": "https://i.ibb.co/7XNkDnW/Rectangle-2-4.png"
+    },
+    {
+        "course_name": "English Composition",
+        "course_details": "Develop your writing skills and explore various forms of written expression.",
+        "price": 349.99,
+        "credit_hours": 3,
+        "img":"https://i.ibb.co/cwz5yY0/Rectangle-2-5.png"
+    },
+    {
+        "course_name": "World History",
+        "course_details": "An overview of world history from ancient civilizations to the modern era.",
+        "price": 496,
+        "credit_hours": 3,
+        "img":"https://i.ibb.co/S6T33rk/Rectangle-2-3.png"
+    },
+    {
+        "course_name": "Introduction to Art",
+        "course_details": "Explore different art forms and the history of art in various cultures.",
+        "price": 374,
+        "credit_hours": 3,
+        "img": "https://i.ibb.co/k6t6KSC/Rectangle-2.png"
+    },
+    {
+        "course_name": "Biology for Beginners",
+        "course_details": "An introductory course to biology covering the basics of life sciences.",
+        "price": 864.99,
+        "credit_hours": 3,
+        "img": "https://i.ibb.co/bLP3jzT/Rectangle-2-1.png"
+    },
+    {
+        "course_name": "Microeconomics",
+        "course_details": "Study the principles of microeconomics, including supply, demand, and market behavior.",
+        "price": 454.99,
+        "credit_hours": 3,
+        "img":"https://i.ibb.co/DRfjhz1/Rectangle-2-2.png"
+    }
+]
